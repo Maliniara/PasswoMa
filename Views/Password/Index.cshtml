@@ -1,0 +1,85 @@
+@model IEnumerable<PasswordManager.Models.PasswordEntry>
+
+@{
+    ViewData["Title"] = "Password Manager";
+}
+
+<h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col text-left">
+            <a class="btn btn-secondary" href="@Url.Action("Index", "Home")">Back to Home</a>
+        </div>
+        <div class="col text-right">
+    <a class="btn btn-primary float-end" href="@Url.Action("Add", "Password")">Add New Password</a>
+</div>
+
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>URL</th>
+                <th>User</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>
+                        <a href="@EnsureUrlProtocol(item.URL)" target="_blank" rel="noopener noreferrer">
+                            @item.URL
+                        </a>
+                    </td>
+                    <td>@item.User</td>
+                    <td>
+                        <span class="password-blur">@item.Password</span>
+                    </td>
+                    <td>
+                        <a class="btn btn-secondary" href="@Url.Action("Edit", "Password", new { id = item.Id })">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            @* Add placeholder rows for aesthetic spacing *@
+            @for (int i = Model.Count(); i < 5; i++)
+            {
+                <tr>
+                    <td colspan="5" class="bg-light">&nbsp;</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .password-blur {
+        filter: blur(5px);
+        transition: filter 0.3s;
+    }
+
+    .password-blur:hover {
+        filter: none;
+    }
+
+    /* Additional styles can be added here for further customization */
+</style>
+
+@functions {
+    public string EnsureUrlProtocol(string url)
+    {
+        if (!url.StartsWith("http://") && !url.StartsWith("https://"))
+        {
+            return "https://" + url;
+        }
+        return url;
+    }
+}
