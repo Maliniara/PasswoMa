@@ -8,14 +8,13 @@ using PasswordManager.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodaj usługi do kontenera DI.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Skonfiguruj potok HTTP.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();

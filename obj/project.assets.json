@@ -4072,11 +4072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswordManager.csproj",
+      "projectUniqueName": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswoMa\\PasswordManager.csproj",
       "projectName": "PasswordManager",
-      "projectPath": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswordManager.csproj",
+      "projectPath": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswoMa\\PasswordManager.csproj",
       "packagesPath": "C:\\Users\\Bart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\obj\\",
+      "outputPath": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswoMa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bart\\AppData\\Roaming\\NuGet\\NuGet.Config",

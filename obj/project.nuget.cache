@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aVgzNTO8mwo=",
+  "dgSpecHash": "mpHmtFl7V4g=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswordManager.csproj",
+  "projectFilePath": "C:\\Users\\Bart\\Desktop\\Projekt-main\\PasswordManager\\PasswoMa\\PasswordManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bart\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Bart\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
