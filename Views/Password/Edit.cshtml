@@ -2,33 +2,35 @@
 
 @{
     ViewData["Title"] = "Edit Password";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit Password</h1>
+<div class="container">
+    <h1>Edit Password</h1>
 
-<h4>PasswordEntry</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div class="form-group">
-                <label asp-for="URL" class="control-label"></label>
-                <input asp-for="URL" class="form-control" />
-                <span asp-validation-for="URL" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User" class="control-label"></label>
-                <input asp-for="User" class="form-control" />
-                <span asp-validation-for="User" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form asp-action="Edit" method="post">
+                <div class="form-group">
+                    <label asp-for="URL" class="control-label">URL</label>
+                    <input asp-for="URL" class="form-control" />
+                    <span asp-validation-for="URL" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="User" class="control-label">User</label>
+                    <input asp-for="User" class="form-control" />
+                    <span asp-validation-for="User" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group text-end">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a class="btn btn-secondary ms-2" href="@Url.Action("Index", "Password")">Back</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>

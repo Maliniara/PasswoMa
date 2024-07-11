@@ -34,6 +34,8 @@ namespace PasswordManager.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    entry.URL = EnsureUrlProtocol(entry.URL);
+
                     _context.Add(entry);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
@@ -74,6 +76,8 @@ namespace PasswordManager.Controllers
             {
                 try
                 {
+                    entry.URL = EnsureUrlProtocol(entry.URL);
+
                     _context.Update(entry);
                     await _context.SaveChangesAsync();
                 }
@@ -111,6 +115,15 @@ namespace PasswordManager.Controllers
         private bool PasswordEntryExists(int id)
         {
             return _context.PasswordEntries.Any(e => e.Id == id);
+        }
+
+        private string EnsureUrlProtocol(string url)
+        {
+            if (!url.StartsWith("http://") && !url.StartsWith("https://") && !url.StartsWith("www."))
+            {
+                return "https://www." + url;
+            }
+            return url;
         }
     }
 }
