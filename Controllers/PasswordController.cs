@@ -28,7 +28,7 @@ namespace PasswordManager.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add([Bind("Id,URL,User,Password")] PasswordEntry entry)
+        public async Task<IActionResult> Add([Bind("Id,URL,User,Password,ConfirmPassword")] PasswordEntry entry)
         {
             try
             {
@@ -63,7 +63,7 @@ namespace PasswordManager.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,URL,User,Password")] PasswordEntry entry)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,URL,User,Password,ConfirmPassword")] PasswordEntry entry)
         {
             if (id != entry.Id)
             {
