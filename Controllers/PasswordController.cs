@@ -119,9 +119,9 @@ namespace PasswordManager.Controllers
 
         private string EnsureUrlProtocol(string url)
         {
-            if (!url.StartsWith("http://") && !url.StartsWith("https://") && !url.StartsWith("www."))
+            if (!url.StartsWith("http://") && !url.StartsWith("https://"))
             {
-                return "https://www." + url;
+                return "https://" + url;
             }
             return url;
         }

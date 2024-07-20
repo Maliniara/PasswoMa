@@ -123,8 +123,7 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-10T21:33:52.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:52.195Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-10T21:33:45.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:45.655Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-10T21:33:43.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:43.911Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "Controllers\\PasswordController.cs",
               "ViewState": "AQIAAFAAAAAAAAAAAAAuwGsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:33:35.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:35.977Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:33:32.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:32.044Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:33:18.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:18.438Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:33:12.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:12.297Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "Models\\PasswordEntry.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:33:11.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:11.049Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:33:02.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:33:02.846Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:58.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:58.333Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "Views\\Password\\Add.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:55.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:55.443Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "Views\\Password\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:52.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:52.194Z"
             },
             {
               "$type": "Document",
@@ -279,8 +267,7 @@
               "RelativeToolTip": "Views\\Password\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:38.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:38.223Z"
             },
             {
               "$type": "Document",
@@ -292,8 +279,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:34.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:34.61Z"
             },
             {
               "$type": "Document",
@@ -305,8 +291,7 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:32.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:32.924Z"
             },
             {
               "$type": "Document",
@@ -318,8 +303,7 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:27.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:27.568Z"
             },
             {
               "$type": "Document",
@@ -331,8 +315,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:24.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:24.472Z"
             },
             {
               "$type": "Document",
@@ -344,8 +327,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:32:22.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:22.388Z"
             },
             {
               "$type": "Document",
@@ -357,8 +339,7 @@
               "RelativeToolTip": ".gitattributes",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-10T21:32:16.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:16.917Z"
             },
             {
               "$type": "Document",
@@ -370,8 +351,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-10T21:32:14.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:14.287Z"
             },
             {
               "$type": "Document",
@@ -383,8 +363,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:32:02.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T21:32:02.951Z"
             }
           ]
         }
